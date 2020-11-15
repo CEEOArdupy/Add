@@ -7,7 +7,6 @@ class add {
   public:
     add(void);
     int sum(int a, int b);
-private:
     int c;
 
 };
