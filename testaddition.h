@@ -6,9 +6,9 @@
 class add {
   public:
     add(void);
-    int sum(int a, int b);
+    uint32 sum(uint32 a, uint32 b);
 private:
-    int _count;
+    uint32 _count;
 
 };
 
