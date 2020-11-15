@@ -6,8 +6,8 @@
 class add {
   public:
     add(void);
-    int sum(int a, int b);
-    int c;
+    float sum(float a, float b);
+    float c;
 
 };
 
