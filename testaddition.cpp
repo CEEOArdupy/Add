@@ -2,10 +2,10 @@
 #include <Arduino.h>
 
 add::add(void) {
-	int c=0;
+	float c=0;
 }
 
-int add::sum(int a, int b) {
-    int c = a+b;
+float add::sum(float a, float b) {
+    float c = a+b;
     return c;
 }
