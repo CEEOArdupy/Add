@@ -4,7 +4,7 @@ add::add(void) {
 	uint32 dummy=0;
 }
 
-uint32 add::sum(uint32 a, uint32 b) {
-    uint32 c = a+b;
+uint add::sum(uint a, uint b) {
+    uint c = a+b;
     return c;
 }
