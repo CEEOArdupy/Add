@@ -4,7 +4,7 @@ add::add(void) {
 	int dummy=0;
 }
 
-float add::sum(int a, int b) {
-    float c = (float) a+b;
+int add::sum(int a, int b) {
+    int c = a+b;
     return c;
 }
