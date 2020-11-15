@@ -1,6 +1,6 @@
 #include "testaddition.h"
 
-void add::init() {
+add::add(void) {
 	int dummy=0;
 }
 
