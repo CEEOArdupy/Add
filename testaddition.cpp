@@ -9,3 +9,8 @@ float add::sum(float a, float b) {
     c = a+b;
     return c;
 }
+
+float add::ten() {
+    c = 10;
+    return c;
+}
