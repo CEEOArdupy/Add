@@ -1,8 +1,7 @@
 #include "testaddition.h"
 
-bool add::init(int count) {
+void add::init(int count) {
     int dummy = count;
-	return true;
 }
 
 float add::sum(int a, int b) {
