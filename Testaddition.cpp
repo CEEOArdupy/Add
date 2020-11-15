@@ -1,5 +1,4 @@
-#include "testaddition.h"
-#include <Arduino.h>
+#include "Testaddition.h"
 
 add::add(void) {
 	float c=0;
