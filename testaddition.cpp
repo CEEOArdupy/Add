@@ -1,10 +1,10 @@
 #include "testaddition.h"
 
 add::add(void) {
-	int dummy=0;
+	uint32 dummy=0;
 }
 
-int add::sum(int a, int b) {
-    int c = a+b;
+uint32 add::sum(uint32 a, uint32 b) {
+    uint32 c = a+b;
     return c;
 }
