@@ -6,6 +6,6 @@ add::add(void) {
 }
 
 float add::sum(float a, float b) {
-    float c = a+b;
+    c = a+b;
     return c;
 }
