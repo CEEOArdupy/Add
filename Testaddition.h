@@ -3,12 +3,13 @@
 
 #include "Arduino.h"
 
-class add {
+class Add {
   public:
-    add(void);
-    float sum(float a, float b);
-    float ten();
-    float c;
+    Add(void);
+    int sum(int a, int b);
+    int ten();
+    int past(int a);
+    int c;
 
 };
 
