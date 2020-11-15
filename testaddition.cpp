@@ -1,4 +1,5 @@
 #include "testaddition.h"
+#include <Arduino.h>
 
 add::add(void) {
 	int c=0;
