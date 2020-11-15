@@ -5,7 +5,7 @@
 
 class add {
   public:
-    add();
+    add(void);
     float sum(int a, int b);
 private:
     int _count;
