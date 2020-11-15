@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef testaddition_h
 #define testaddition_h
 
