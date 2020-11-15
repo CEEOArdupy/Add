@@ -10,6 +10,6 @@ float add::sum(float a, float b) {
 }
 
 float add::ten() {
-    c = 10;
+    float c = 10;
     return c;
 }
