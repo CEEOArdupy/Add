@@ -1,10 +1,18 @@
-#include "testaddition.h"
+#include "Testaddition.h"
 
-void add::init() {
-	int dummy=0;
+Add::Add(void) {
+	int c=0;
 }
 
-float add::sum(int a, int b) {
-    float c = (float) a+b;
+int Add::sum(int a, int b) {
+    c = a+b;
     return c;
+}
+
+int Add::ten() {
+    int c = 10;
+    return c;
+}
+int Add::past(int g) {
+    return g;
 }

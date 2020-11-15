@@ -1,14 +1,15 @@
-#ifndef testaddition_h
-#define testaddition_h
+#ifndef Testaddition_h
+#define Testaddition_h
 
 #include "Arduino.h"
 
-class add {
+class Add {
   public:
-    add();
-    float sum(int a, int b);
-private:
-    int _count;
+    Add(void);
+    int sum(int a, int b);
+    int ten();
+    int past(int a);
+    int c;
 
 };
 
